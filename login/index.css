@@ -1,0 +1,166 @@
+:root {
+  font-size: 9pt;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', 'sans-serif';
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  background-color: #141B20;
+  font-weight: 100;
+  color: #fff;
+}
+
+.title-bar img {
+  width: 25px;
+  height: 25px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 20;
+  padding-right: 58px;
+}
+
+
+
+h1 {
+  font-weight: 200;
+  padding-right: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input[type=text],
+input[type=password] {
+
+  width: 380px;
+  height: 42px;
+  
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  border: solid 1px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-color: #d4d4d4
+}
+
+input[type=password] {
+  border: solid 1px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-color: #d4d4d4
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  outline: none;
+  border: solid 1px #F56C2D;
+}
+
+.helper-text {
+  font-size: 1.1rem;
+  width: 380px;
+  margin-top: 15px;
+
+  color: #E45A27;
+}
+
+input[type=submit] {
+
+  background-color: #F56C2D;
+  transition: 0.5s;
+  color: #fff;
+
+  border: 1px solid #F56C2D;
+  border-radius: 3px;
+
+  height: 40px;
+
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  transition: 0.5s;
+  background-color: #C85E36;
+  outline: none;
+}
+
+input[type=submit]:focus{
+  transition: 0.1s;
+  background-color: #C85E36;
+  outline: none;
+  padding-top: 3px;
+}
+
+a:nth-child(7) {
+  
+  font-size: 1.3rem;
+  color: #39C8F5;
+  
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+
+  height: 600px;
+  width: 480px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+
+  margin-top: 15px;
+}
+
+div.checkbox-group:nth-child(5) {
+  margin-bottom: 15px;
+}
+
+.check-label {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-left: 4px;
+}
